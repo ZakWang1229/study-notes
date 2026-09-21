@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 540" width="720" height="540" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC',sans-serif">
+  <title>不同 p-范数的单位圆对比示意</title>
+  <rect width="720" height="540" fill="#ffffff"/>
+  <text x="360" y="36" text-anchor="middle" font-size="18" font-weight="bold" fill="#1f2937">不同 p-范数的单位圆 {x ∈ ℝ² : ‖x‖ₚ = 1} · 示意</text>
+
+  <line x1="100" y1="270" x2="620" y2="270" stroke="#9ca3af" stroke-width="1.5"/>
+  <line x1="360" y1="90" x2="360" y2="450" stroke="#9ca3af" stroke-width="1.5"/>
+  <text x="620" y="290" font-size="13" fill="#6b7280">x</text>
+  <text x="374" y="98" font-size="13" fill="#6b7280">y</text>
+  <circle cx="540" cy="270" r="3" fill="#6b7280"/>
+  <circle cx="360" cy="90" r="3" fill="#6b7280"/>
+  <text x="540" y="286" font-size="12" fill="#6b7280">(1, 0)</text>
+  <text x="342" y="84" font-size="12" fill="#6b7280">(0, 1)</text>
+
+  <rect x="180" y="90" width="360" height="360" fill="none" stroke="#2563eb" stroke-width="2.5" stroke-dasharray="8 5"/>
+  <text x="548" y="110" font-size="13" fill="#2563eb">p = ∞：正方形</text>
+
+  <polyline points="540,270 522,220 495,181 459,143 414,110 360,90 306,110 261,143 225,181 198,220 180,270 198,320 225,359 261,397 306,430 360,450 414,430 459,397 495,359 522,320 540,270" fill="none" stroke="#d97706" stroke-width="2" stroke-linejoin="round"/>
+  <text x="330" y="176" font-size="13" fill="#d97706">p = 1.5：介于之间</text>
+
+  <circle cx="360" cy="270" r="180" fill="none" stroke="#16a34a" stroke-width="2.5"/>
+  <text x="508" y="416" font-size="13" fill="#16a34a">p = 2：圆</text>
+
+  <polyline points="540,270 360,90 180,270 360,450 540,270" fill="none" stroke="#dc2626" stroke-width="2.5" stroke-linejoin="round"/>
+  <text x="196" y="150" font-size="13" fill="#dc2626">p = 1：菱形</text>
+
+  <line x1="280" y1="500" x2="440" y2="500" stroke="#9ca3af" stroke-width="1.2"/>
+  <text x="360" y="528" text-anchor="middle" font-size="15" font-weight="bold" fill="#111827">p 越大，单位球越大：B₁ ⊂ B₂ ⊂ B∞</text>
+</svg>
