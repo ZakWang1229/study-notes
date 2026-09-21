@@ -3,6 +3,10 @@
 .obsidian/workspace-mobile.json
 .obsidian/cache/
 
+# 插件与插件设置（不版本化）
+.obsidian/plugins/
+.obsidian/community-plugins.json
+
 # 回收站
 .trash/
 
