@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" width="720" height="340" font-family="'Microsoft YaHei','PingFang SC','Noto Sans SC',sans-serif">
+  <title>戴德金切割 (A|A′) 空隙示意</title>
+  <rect width="720" height="340" fill="#ffffff"/>
+
+  <text x="360" y="34" text-anchor="middle" font-size="18" font-weight="bold" fill="#1f2937">戴德金切割 (A | A′) 示意 · 用有理数的“空隙”定义无理数</text>
+
+  <!-- 数轴 -->
+  <line x1="80" y1="205" x2="660" y2="205" stroke="#9ca3af" stroke-width="1.5"/>
+  <polygon points="660,205 648,200 648,210" fill="#9ca3af"/>
+  <text x="668" y="214" font-size="13" fill="#6b7280">x</text>
+
+  <!-- 下集 A 区域（蓝）与上集 A′ 区域（橙） -->
+  <rect x="80"  y="172" width="341" height="66" fill="#3b82f6" opacity="0.14"/>
+  <rect x="421" y="172" width="219" height="66" fill="#f59e0b" opacity="0.16"/>
+
+  <!-- 刻度：-1, 0, 1, 2, 3 -->
+  <g stroke="#374151" stroke-width="1.2">
+    <line x1="180" y1="197" x2="180" y2="213"/>
+    <line x1="280" y1="197" x2="280" y2="213"/>
+    <line x1="380" y1="197" x2="380" y2="213"/>
+    <line x1="480" y1="197" x2="480" y2="213"/>
+    <line x1="580" y1="197" x2="580" y2="213"/>
+  </g>
+  <g font-size="12" fill="#6b7280" text-anchor="middle">
+    <text x="180" y="232">-1</text>
+    <text x="280" y="232">0</text>
+    <text x="380" y="232">1</text>
+    <text x="480" y="232">2</text>
+    <text x="580" y="232">3</text>
+  </g>
+
+  <!-- 有理数点（Q 稠密，取若干代表） -->
+  <g fill="#374151">
+    <circle cx="180" cy="205" r="3.5"/>
+    <circle cx="280" cy="205" r="3.5"/>
+    <circle cx="380" cy="205" r="3.5"/>
+    <circle cx="480" cy="205" r="3.5"/>
+    <circle cx="580" cy="205" r="3.5"/>
+  </g>
+  <g fill="#9ca3af">
+    <circle cx="230" cy="205" r="2.4"/>
+    <circle cx="330" cy="205" r="2.4"/>
+    <circle cx="530" cy="205" r="2.4"/>
+  </g>
+
+  <!-- 切割线：位于 √2 处 -->
+  <line x1="421" y1="140" x2="421" y2="268" stroke="#dc2626" stroke-width="2" stroke-dasharray="7 5"/>
+  <text x="421" y="128" text-anchor="middle" font-size="15" font-weight="bold" fill="#dc2626">√2 ≈ 1.414</text>
+
+  <!-- 集合标注 -->
+  <text x="250" y="158" font-size="14" font-weight="bold" fill="#2563eb">A（下集，无最大元）</text>
+  <text x="560" y="158" font-size="14" font-weight="bold" fill="#d97706">A′（上集，无最小元）</text>
+
+  <!-- 底部结论 -->
+  <text x="360" y="318" text-anchor="middle" font-size="15" font-weight="bold" fill="#111827">切割处 A 无最大元、A′ 无最小元 ⇒ 空隙点即无理数 √2</text>
+</svg>
